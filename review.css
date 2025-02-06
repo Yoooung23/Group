@@ -8,7 +8,7 @@
 }
 body{
     margin: 0 auto;
-    max-width: 2500px;
+    max-width: 2000px;
 }
 header{
     background-color: var(--primary-color);
@@ -27,11 +27,15 @@ nav{
     align-items: center;
     background-color: var(--primary-color-dark);
     text-decoration: none;
+    margin: 0 auto;
+    padding-right: 30px;
 }
 nav a{
     padding: 10px;
+    
     text-decoration: none;
     color: var(--font-color-dark);
+    margin: 0 auto;
 }
 main{
     text-align: center;
@@ -46,6 +50,13 @@ main{
     min-width: 350px;
     height: 500px;
 }
+.cards img{
+    width: 100%;
+}
+#fable_cover{
+    max-width: 200px;
+
+}
 .card2{
     border-radius: 30px;
     background-color: var(--secondary-color);
@@ -54,6 +65,20 @@ main{
     min-width: 350px;
     height: 500px;
 }
+#lightning_cover{
+    max-width: 200px;
+}
+.card2 p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .cards h2{
+    padding: 10px;
+}
+footer{
+    background-color: var(--primary-color);
+    height: 50px;
+}
+footer p{
     padding: 10px;
 }
