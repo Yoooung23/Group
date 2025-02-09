@@ -7,7 +7,7 @@ const articles = [
 			'None who enter will leave unchanged.',
 		imgSrc: 'https://m.media-amazon.com/images/I/81-CHrH4mCL._SL1500_.jpg',
 		imgAlt: 'Book cover for Fablehaven Book 1',
-		ages: '10-14',
+		ages: '6-12',
 		genre: 'Fantasy',
 		stars: '⭐⭐⭐⭐⭐'
 	},
