@@ -10,22 +10,23 @@
 </head>
 <body>
     <header>
-        <h1>Kids Read for Fun</h1>
-        <nav>
+        <h1 id="page-title">Kids Read for Fun</h1>
+        <nav aria-label="Main Navigation">
             <ul>
-                <a href="#">About</a>
-                <a href="#">Archive</a>
-                <a href="#">search</a>
+                <a href="index.html">About</a>
+                <a href="archive.html">Archive</a>
+                <a href="search.html">search</a>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="search-form">
+        <div class="sform">
             <form action="/search" method="GET">
 
-                <label for="Sort">Sort:</label>
-                <select name="Length" id="book-length"></select>
-                    <option value=""></option>
+                <label for="book-length">Sort by Length:</label>
+                <select name="Length" id="book-length">
+                    <option value="">Any</option> 
+                </select>
 
                 <label for="age-range">Age Range:</label>
                 <select name="age" id="age-range">
@@ -78,7 +79,7 @@
                 <p>After learning that he is the son of a mortal woman and Poseidon, god of the sea, twelve-year-old Percy is sent to a summer camp for demigods like himself, and joins his new friends on a quest to prevent a war between the gods.</p>
             </div>
             <div class="data2">
-                <p>June 14, 2006</p>
+                <p>June 28, 2005</p>
                 <p>13-17</p>
                 <p>Fantasy</p>
                 <p>*****</p>
